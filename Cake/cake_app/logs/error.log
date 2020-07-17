@@ -1,0 +1,482 @@
+2020-06-27 14:49:46 Error: [Cake\View\Exception\MissingTemplateException] Template file `Student\index.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\cake_app\templates\Student\index.php`
+- `C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\templates\Student\index.php`
+ in Student\index.php on line 1331
+Exception Attributes: array (
+  'file' => 'Student\\index.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\cake_app\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\cake_app\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\View\View.php:748
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\Controller.php:688
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\Controller.php:530
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cake_app\webroot\index.php:40
+
+Request URL: /student
+
+
+2020-06-27 15:03:03 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "student" with primary key [NULL] in C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php on line 1487
+Stack Trace:
+- C:\xampp\htdocs\cake_app\src\Controller\StudentController.php:39
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cake_app\webroot\index.php:40
+
+Request URL: /student/view
+
+
+2020-06-27 15:03:10 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "student" in C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php on line 458
+Stack Trace:
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1515
+- C:\xampp\htdocs\cake_app\src\Controller\StudentController.php:39
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cake_app\webroot\index.php:40
+
+Request URL: /student/view/2
+
+
+2020-06-27 15:07:30 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "student" with primary key [NULL] in C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php on line 1487
+Stack Trace:
+- C:\xampp\htdocs\cake_app\src\Controller\StudentController.php:39
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cake_app\webroot\index.php:40
+
+Request URL: /student/view
+
+
+2020-06-27 15:07:49 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "student" with primary key [NULL] in C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php on line 1487
+Stack Trace:
+- C:\xampp\htdocs\cake_app\src\Controller\StudentController.php:35
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cake_app\webroot\index.php:40
+
+Request URL: /student/view
+
+
+2020-06-27 15:15:47 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:178
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Connection.php:343
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:69
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Connection.php:346
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Query.php:245
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:2036
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1928
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1829
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1529
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Connection.php:693
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1530
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1830
+- C:\xampp\htdocs\cake_app\src\Controller\StudentController.php:51
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cake_app\webroot\index.php:40
+
+Request URL: /student/add
+Referer URL: http://localhost/cake_app/student/add
+
+
+2020-06-27 15:15:55 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:178
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Connection.php:343
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:69
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Connection.php:346
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Query.php:245
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:2036
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1928
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1829
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1529
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Connection.php:693
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1530
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1830
+- C:\xampp\htdocs\cake_app\src\Controller\StudentController.php:51
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cake_app\webroot\index.php:40
+
+Request URL: /student/add
+Referer URL: http://localhost/cake_app/student/add
+
+
+2020-06-27 15:17:32 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:178
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Connection.php:343
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:69
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Connection.php:346
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Query.php:245
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:2036
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1928
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1829
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1529
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Database\Connection.php:693
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1530
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\ORM\Table.php:1830
+- C:\xampp\htdocs\cake_app\src\Controller\StudentController.php:51
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:164
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cake_app\webroot\index.php:40
+
+Request URL: /student/add
+Referer URL: http://localhost/cake_app/student/add
+
+
+2020-06-27 15:59:31 Error: [Cake\Http\Exception\MissingControllerException] Controller class Blogs could not be found. in C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Blogs',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cake_app\webroot\index.php:40
+
+Request URL: /blogs
+
+
+2020-06-27 15:59:39 Error: [ParseError] syntax error, unexpected 'App' (T_STRING) in C:\xampp\htdocs\cake_app\src\Controller\BlogsController.php on line 2
+Stack Trace:
+- C:\xampp\htdocs\cake_app\vendor\composer\ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Core\App.php:161
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Core\App.php:67
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:44
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cake_app\webroot\index.php:40
+
+Request URL: /blogs
+
+
+2020-06-27 16:00:02 Error: [ParseError] syntax error, unexpected 'App' (T_STRING) in C:\xampp\htdocs\cake_app\src\Controller\BlogsController.php on line 2
+Stack Trace:
+- C:\xampp\htdocs\cake_app\vendor\composer\ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Core\App.php:161
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Core\App.php:67
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:44
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cake_app\webroot\index.php:40
+
+Request URL: /blogs
+
+
+2020-06-27 16:00:37 Error: [ParseError] syntax error, unexpected 'App' (T_STRING) in C:\xampp\htdocs\cake_app\src\Controller\BlogsController.php on line 2
+Stack Trace:
+- C:\xampp\htdocs\cake_app\vendor\composer\ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Core\App.php:161
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Core\App.php:67
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:146
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:44
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cake_app\webroot\index.php:40
+
+Request URL: /blogs
+
+
+2020-06-27 16:00:50 Error: [Cake\Controller\Exception\MissingActionException] Action BlogsController::index() could not be found, or is not accessible. in C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\Controller.php on line 500
+Exception Attributes: array (
+  'controller' => 'BlogsController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cake_app\webroot\index.php:40
+
+Request URL: /blogs
+
+
+2020-06-27 16:09:13 Error: [Cake\View\Exception\MissingTemplateException] Template file `Blogs\home.php` could not be found.
+
+The following paths were searched:
+
+- `C:\xampp\htdocs\cake_app\templates\Blogs\home.php`
+- `C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\templates\Blogs\home.php`
+ in Blogs\home.php on line 1331
+Exception Attributes: array (
+  'file' => 'Blogs\\home.php',
+  'paths' => 
+  array (
+    0 => 'C:\\xampp\\htdocs\\cake_app\\templates\\',
+    1 => 'C:\\xampp\\htdocs\\cake_app\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\View\View.php:748
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\Controller.php:688
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\Controller.php:530
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cake_app\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cake_app\webroot\index.php:40
+
+Request URL: /blogs/home
+
+

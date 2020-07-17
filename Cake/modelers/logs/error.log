@@ -1,0 +1,637 @@
+2020-06-28 10:14:02 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\modelers\src\Controller\ModelTypesController.php:14
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\modelers\src\Controller\ModelTypesController.php:14
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Request URL: /model-types
+Referer URL: http://localhost/modelers/pages/feature
+
+
+2020-06-28 10:14:06 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\modelers\src\Controller\ModelTypesController.php:14
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\modelers\src\Controller\ModelTypesController.php:14
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Request URL: /model-types
+Referer URL: http://localhost/modelers/pages/feature
+
+
+2020-06-28 10:14:10 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\modelers\src\Controller\ModelTypesController.php:14
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\modelers\src\Controller\ModelTypesController.php:14
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Request URL: /model-types
+Referer URL: http://localhost/modelers/pages/feature
+
+
+2020-06-28 10:14:26 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Association.php:861
+- C:\xampp\htdocs\modelers\src\Controller\UsersController.php:39
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Association.php:861
+- C:\xampp\htdocs\modelers\src\Controller\UsersController.php:39
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Request URL: /users/add
+Referer URL: http://localhost/modelers/users/login?redirect=%2Fusers
+
+
+2020-06-28 10:14:30 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Association.php:861
+- C:\xampp\htdocs\modelers\src\Controller\UsersController.php:39
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Association.php:861
+- C:\xampp\htdocs\modelers\src\Controller\UsersController.php:39
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Request URL: /users/add
+Referer URL: http://localhost/modelers/users/login?redirect=%2Fusers
+
+
+2020-06-28 10:56:27 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Association.php:861
+- C:\xampp\htdocs\modelers\src\Controller\UsersController.php:39
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Association.php:861
+- C:\xampp\htdocs\modelers\src\Controller\UsersController.php:39
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Request URL: /users/add
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 10:56:29 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests" in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php on line 458
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1515
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Controller\RequestsController.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/4816524f-af8d-4688-be8c-18e636eea3af
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 10:56:33 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests" in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php on line 458
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1515
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Controller\RequestsController.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Request URL: /debug-kit/toolbar/4816524f-af8d-4688-be8c-18e636eea3af
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 10:56:41 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Association.php:861
+- C:\xampp\htdocs\modelers\src\Controller\UsersController.php:39
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\ORM\Association.php:861
+- C:\xampp\htdocs\modelers\src\Controller\UsersController.php:39
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:138
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:119
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\modelers\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\modelers\webroot\index.php:40
+
+Request URL: /users/add
+Referer URL: http://localhost:8765/users/login
+
+

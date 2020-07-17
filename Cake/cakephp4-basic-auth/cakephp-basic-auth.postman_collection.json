@@ -1,0 +1,984 @@
+{
+	"info": {
+		"_postman_id": "39e63b3d-2689-4cba-b13e-d5c8c7a77a7a",
+		"name": "cakephp-basic-auth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "user add / registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "user5",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "user5@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "active",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "basic-auth.test/users/add.json",
+					"host": [
+						"basic-auth",
+						"test"
+					],
+					"path": [
+						"users",
+						"add.json"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "user registration / add",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "user5",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "user5@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456",
+									"type": "text"
+								},
+								{
+									"key": "active",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "basic-auth.test/users/add.json",
+							"host": [
+								"basic-auth",
+								"test"
+							],
+							"path": [
+								"users",
+								"add.json"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.17.10"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 08 Jun 2020 02:30:51 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.6"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "X-DEBUGKIT-ID",
+							"value": "328df08a-7064-4639-ae62-ee88e98e0f52"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"user\": {\n        \"name\": \"user5\",\n        \"email\": \"user5@gmail.com\",\n        \"active\": true,\n        \"created\": \"2020-06-08T02:30:51+00:00\",\n        \"modified\": \"2020-06-08T02:30:51+00:00\",\n        \"id\": 6\n    }\n}"
+				},
+				{
+					"name": "user not adding response",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "user4",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "user4@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456",
+									"type": "text"
+								},
+								{
+									"key": "active",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "basic-auth.test/users/add.json",
+							"host": [
+								"basic-auth",
+								"test"
+							],
+							"path": [
+								"users",
+								"add.json"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.17.10"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 08 Jun 2020 02:24:08 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.6"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "X-DEBUGKIT-ID",
+							"value": "9e27676d-1a8c-4768-9c8a-7b2c5c06bd58"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"res\": {\n        \"status\": 0,\n        \"msg\": \"The user could not be saved. Please, try again.\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "user login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "zrshishir@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "basic-auth.test/users/login.json",
+					"host": [
+						"basic-auth",
+						"test"
+					],
+					"path": [
+						"users",
+						"login.json"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "invalid login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "shishir2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "shishir2@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456",
+									"type": "text"
+								},
+								{
+									"key": "active",
+									"value": "1",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "basic-auth.test/users/login.json",
+							"host": [
+								"basic-auth",
+								"test"
+							],
+							"path": [
+								"users",
+								"login.json"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.17.10"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 08 Jun 2020 02:58:11 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.6"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "X-DEBUGKIT-ID",
+							"value": "8f4cd977-2db2-4141-890c-893a1f3a72f3"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"res\": {\n        \"status\": 0,\n        \"msg\": \"Invalid email or password. Please, try again.\"\n    }\n}"
+				},
+				{
+					"name": "user not adding response",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "user4",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "user4@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456",
+									"type": "text"
+								},
+								{
+									"key": "active",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "basic-auth.test/users/add.json",
+							"host": [
+								"basic-auth",
+								"test"
+							],
+							"path": [
+								"users",
+								"add.json"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.17.10"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 08 Jun 2020 02:24:08 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.6"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "X-DEBUGKIT-ID",
+							"value": "9e27676d-1a8c-4768-9c8a-7b2c5c06bd58"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"res\": {\n        \"status\": 0,\n        \"msg\": \"The user could not be saved. Please, try again.\"\n    }\n}"
+				},
+				{
+					"name": "user registration / add",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "user5",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "user5@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456",
+									"type": "text"
+								},
+								{
+									"key": "active",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "basic-auth.test/users/add.json",
+							"host": [
+								"basic-auth",
+								"test"
+							],
+							"path": [
+								"users",
+								"add.json"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.17.10"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 08 Jun 2020 02:30:51 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.6"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "X-DEBUGKIT-ID",
+							"value": "328df08a-7064-4639-ae62-ee88e98e0f52"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"user\": {\n        \"name\": \"user5\",\n        \"email\": \"user5@gmail.com\",\n        \"active\": true,\n        \"created\": \"2020-06-08T02:30:51+00:00\",\n        \"modified\": \"2020-06-08T02:30:51+00:00\",\n        \"id\": 6\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "getting user list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "basic-auth.test/users.json",
+					"host": [
+						"basic-auth",
+						"test"
+					],
+					"path": [
+						"users.json"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "getting user list",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "basic-auth.test/users.json",
+							"host": [
+								"basic-auth",
+								"test"
+							],
+							"path": [
+								"users.json"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.17.10"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 08 Jun 2020 02:11:46 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.6"
+						},
+						{
+							"key": "X-DEBUGKIT-ID",
+							"value": "bde4db48-71cb-4d27-bd55-21f6c407c670"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"users\": [\n        {\n            \"id\": 1,\n            \"name\": \"Ziaur Rahman\",\n            \"email\": \"zrshishir@gmail.com\",\n            \"active\": true,\n            \"created\": \"2020-06-08T02:05:19+00:00\",\n            \"modified\": \"2020-06-08T02:05:19+00:00\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"user1\",\n            \"email\": \"user1@gmail.com\",\n            \"active\": true,\n            \"created\": \"2020-06-08T02:05:57+00:00\",\n            \"modified\": \"2020-06-08T02:05:57+00:00\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"user2\",\n            \"email\": \"user2@gmail.com\",\n            \"active\": true,\n            \"created\": \"2020-06-08T02:06:21+00:00\",\n            \"modified\": \"2020-06-08T02:06:21+00:00\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"user3\",\n            \"email\": \"user3@gmail.com\",\n            \"active\": true,\n            \"created\": \"2020-06-08T02:07:25+00:00\",\n            \"modified\": \"2020-06-08T02:07:25+00:00\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "user view ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "basic-auth.test/users/view/1.json",
+					"host": [
+						"basic-auth",
+						"test"
+					],
+					"path": [
+						"users",
+						"view",
+						"1.json"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "user view ",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "basic-auth.test/users/view/1.json",
+							"host": [
+								"basic-auth",
+								"test"
+							],
+							"path": [
+								"users",
+								"view",
+								"1.json"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.17.10"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 08 Jun 2020 02:13:29 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.6"
+						},
+						{
+							"key": "X-DEBUGKIT-ID",
+							"value": "1819809a-e815-485f-baf4-95fc07edfbf3"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"user\": {\n        \"id\": 1,\n        \"name\": \"Ziaur Rahman\",\n        \"email\": \"zrshishir@gmail.com\",\n        \"active\": true,\n        \"created\": \"2020-06-08T02:05:19+00:00\",\n        \"modified\": \"2020-06-08T02:05:19+00:00\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "user edit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "shishir2",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "shishir2@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "active",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "basic-auth.test/users/edit/2.json",
+					"host": [
+						"basic-auth",
+						"test"
+					],
+					"path": [
+						"users",
+						"edit",
+						"2.json"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "user edit",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "shishir2",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "shishir2@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456",
+									"type": "text"
+								},
+								{
+									"key": "active",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "basic-auth.test/users/edit/2.json",
+							"host": [
+								"basic-auth",
+								"test"
+							],
+							"path": [
+								"users",
+								"edit",
+								"2.json"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.17.10"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 08 Jun 2020 02:18:41 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.6"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "X-DEBUGKIT-ID",
+							"value": "c6d2ba90-3320-4f38-81ba-e0e77ba5a597"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"res\": {\n        \"status\": 1,\n        \"msg\": \"User updated successfully\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "user delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "basic-auth.test/users/delete/7.json",
+					"host": [
+						"basic-auth",
+						"test"
+					],
+					"path": [
+						"users",
+						"delete",
+						"7.json"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "user delete",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "basic-auth.test/users/delete/6.json",
+							"host": [
+								"basic-auth",
+								"test"
+							],
+							"path": [
+								"users",
+								"delete",
+								"6.json"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.17.10"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 08 Jun 2020 02:34:26 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.6"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "X-DEBUGKIT-ID",
+							"value": "992bf7a3-81e8-44e4-9aaa-40f88feb771a"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"res\": {\n        \"status\": 1,\n        \"msg\": \"The user has been deleted.\"\n    }\n}"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}

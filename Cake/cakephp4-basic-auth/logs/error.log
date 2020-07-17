@@ -1,0 +1,2263 @@
+2020-06-28 08:24:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 08:25:06 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\Resolver\OrmResolver.php:59
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:154
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:99
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\IdentifierCollection.php:52
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Authenticator\FormAuthenticator.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\AuthenticationService.php:182
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\Resolver\OrmResolver.php:59
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:154
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:99
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\IdentifierCollection.php:52
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Authenticator\FormAuthenticator.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\AuthenticationService.php:182
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users/login?redirect=%2F
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 08:25:10 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 08:25:14 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 08:35:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:20:10 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:20:18 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\Resolver\OrmResolver.php:59
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:154
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:99
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\IdentifierCollection.php:52
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Authenticator\FormAuthenticator.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\AuthenticationService.php:182
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\Resolver\OrmResolver.php:59
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:154
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:99
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\IdentifierCollection.php:52
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Authenticator\FormAuthenticator.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\AuthenticationService.php:182
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users/login?redirect=%2F
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:23:37 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\Resolver\OrmResolver.php:59
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:154
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:99
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\IdentifierCollection.php:52
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Authenticator\FormAuthenticator.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\AuthenticationService.php:182
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\Resolver\OrmResolver.php:59
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:154
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:99
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\IdentifierCollection.php:52
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Authenticator\FormAuthenticator.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\AuthenticationService.php:182
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users/login?redirect=%2F
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:24:36 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\Resolver\OrmResolver.php:59
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:154
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:99
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\IdentifierCollection.php:52
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Authenticator\FormAuthenticator.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\AuthenticationService.php:182
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\Resolver\OrmResolver.php:59
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:154
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:99
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\IdentifierCollection.php:52
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Authenticator\FormAuthenticator.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\AuthenticationService.php:182
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users/login?redirect=%2F
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:24:39 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:24:44 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:24:55 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:554
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:2795
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:554
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:2795
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users/add
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:26:12 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:29:32 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:554
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:2795
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:554
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:2795
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users/add
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:29:57 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:30:01 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:30:22 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\Resolver\OrmResolver.php:59
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:154
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:99
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\IdentifierCollection.php:52
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Authenticator\FormAuthenticator.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\AuthenticationService.php:182
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\Resolver\OrmResolver.php:59
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:154
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\PasswordIdentifier.php:99
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Identifier\IdentifierCollection.php:52
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Authenticator\FormAuthenticator.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\AuthenticationService.php:182
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users/login?redirect=%2F
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:30:24 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:30:25 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:30:30 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:554
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:2795
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:554
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:2795
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users/add
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:30:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:30:56 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:31:20 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:31:22 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:32:37 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:32:39 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:32:40 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:32:42 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:34:34 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:34:38 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:34:39 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:34:42 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:35:44 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:35:49 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:35:52 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:35:54 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:35:56 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:38:28 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:38:31 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:38:33 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:41:13 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:554
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:2795
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:554
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:2795
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users/add
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:47:50 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:47:53 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:50:20 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:50:21 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:50:45 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:50:49 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:50:50 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:50:52 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:52:17 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:52:18 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:52:19 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 09:52:23 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:52:32 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:554
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:2795
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Marshaller.php:554
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:2795
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:105
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users/add
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:52:37 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 09:54:52 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 10:55:12 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 10:55:35 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/login?redirect=%2F
+
+
+2020-06-28 10:55:36 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 10:55:41 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php on line 104
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver.php:104
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:114
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php:47
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php:65
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Database\Connection.php:401
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:508
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:275
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Query.php:174
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1673
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\ORM\Table.php:1255
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:208
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Datasource\Paginator.php:177
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php:203
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:780
+- C:\xampp\htdocs\cakephp4-basic-auth\src\Controller\UsersController.php:71
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\Controller.php:521
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:229
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /users
+Referer URL: http://localhost:8765/users/add
+
+
+2020-06-28 10:55:46 Error: [Cake\Http\Exception\MissingControllerException] Controller class Debug_kit could not be found. in C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\BaseApplication.php:227
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:160
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\cakephp4-basic-auth\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\cakephp4-basic-auth\webroot\index.php:40
+
+Request URL: /debug_kit/js/toolbar.js?1593332545
+Referer URL: http://localhost:8765/users/add
+
+
