@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\ArikCovid;
 
 class ArikCovidController extends Controller
 {
@@ -34,7 +35,23 @@ class ArikCovidController extends Controller
      */
     public function store(Request $request)
     {
-        return $request;
+        $request->validate([
+            'name'=>'required|string',
+            'area'=>'required|string',
+            'symptoms'=>'required|string',
+            'date'=>'required|date',
+        ]);
+
+        $covid = new ArikCovid([
+            'name'=>$request->get('name'),
+            'area'=>$request->get('area'),
+            'symptoms'=>$request->get('symptoms'),
+            'date'=>$request->get('date'),
+        ]);
+        
+        $covid->save();
+        return redirect()->back()->with('message','Report Added Succesfully!');
+
     }
 
     /**
