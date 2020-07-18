@@ -39,7 +39,7 @@ class ArikCovidController extends Controller
             'name'=>'required|string',
             'area'=>'required|string',
             'symptoms'=>'required|string',
-            'date'=>'required|date',
+            'date'=>'required|date'
         ]);
 
         $covid = new ArikCovid([
